@@ -1,0 +1,268 @@
+@media only screen and (max-width: 769px) and (min-width:768px ){
+    .nav_link{
+        display: none;
+    }
+    .cat{
+        margin-left: 60vw;
+    }
+    .main_head{
+        text-align: center;
+        line-height: 30px;
+    }
+    .child{
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        text-align: center; 
+    }
+    .child :nth-child(1){
+        border: none;
+        border-radius: 10px;
+        padding: 22px;
+    }
+    .child :nth-child(2){
+        border: none;
+        border-radius: 10px;
+        padding: 22px;
+    }
+    .child :nth-child(3){
+        border: none;
+        border-radius: 10px;
+        padding: 22px;
+    }
+    .child :nth-child(4){
+        border: none;
+        border-radius: 10px;
+        padding: 22px;
+    }
+    .sit1{
+        margin-top: 20px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        line-height: 30px;
+        padding-left: 0px;
+        width: 80vw;
+        height: 40vw;
+        border-left: #FFD124 3px solid;
+        border-right: #FFD124 3px solid;
+    }
+    .sit1 h2 {
+        text-align: center;
+    }
+    .sit1 p {
+        margin-left: 14.5vw;
+        padding-top: 20px;
+        width: 50vw;
+        text-align: center;
+        border: none;
+    }
+    .flex-card{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+        margin-left: 10vw;
+        margin-right: 10vw;
+    }
+    .main1{
+        background-color:  rgb(218, 253, 253);
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 30px;
+        padding: 20px;
+        width: 40vw;
+        height: 300px;
+        transition: all 2s ease 3ms;
+    }
+    .main2{
+        background-color: rgb(218, 253, 253);
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 30px;
+        padding: 20px;
+        width: 40vw;
+        height: 300px;
+        text-align: center;
+    }
+    .main3{
+        background-color:  rgb(218, 253, 253);
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 30px;
+        padding: 20px;
+        width: 40vw;
+        height: 300px;
+        text-align: center;
+    }
+    .main4{
+        background-color:  rgb(218, 253, 253);
+        margin-right: 20px;
+        margin-left: 20px;
+        margin-top: 30px;
+        padding: 20px;
+        width: 40vw;
+        height: 300px;
+        text-align: center;
+    }
+    .main1 p{
+        padding-top: 10px;
+        margin-bottom: 35px;
+    }
+    .main2 p{
+        padding-top: 10px;
+        margin-bottom: 35px;
+    }
+    .main3 p{
+        padding-top: 10px;
+        margin-bottom: 35px;
+    }
+    .main4 p{
+        padding-top: 10px;
+        margin-bottom: 35px;
+    }
+    .btn1{
+        width: 60px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px black solid;
+        margin: auto;
+    }
+    .btn2{
+        width: 60px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px black solid;
+        margin: auto;
+    }
+    .btn3{
+        width: 60px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px black solid;
+        margin: auto;
+    }
+    .btn4{
+        width: 60px;
+        padding-top: 5px;
+        padding-bottom: 5px;
+        border: 1px black solid;
+        margin: auto;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        margin: 20px  4.5%;
+        position: relative;
+        top: 20px;
+    }
+    .one {
+        grid-column: 2 / 4 ;
+        grid-row: 1 / 3;
+        background-color: #a668f1;
+        max-height: 346px;
+        padding-bottom: 40px;
+    }
+    .one p{
+        padding-left: 15px;
+        padding-right: 15px;
+        color: aliceblue;
+        line-height: 20px;
+    }
+    .one-img{
+        display: none;
+    }
+    .two {
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+        background-color: rgb(248, 248, 248);
+        max-height: 346px;
+        padding-bottom: 10px;
+    }
+    .two .two-btn{
+        background-color: rgb(236, 236, 236);
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 5px 9px;
+        transition: all 2s ease 30ms;
+        border: black 1px solid;
+        border-radius: 2px;
+    }
+    .three {
+        grid-column: 1;
+        grid-row: 1 / 2;
+        background-color: rgb(56, 56, 56);
+        border: none;
+        border-radius: 2px;
+    }
+    .three h4 {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px;
+        color: aliceblue;
+    }
+    .four {
+        grid-column: 1;
+        grid-row: 2 / 3;
+        background-color: rgb(234, 234, 234);
+        border: none;
+        border-radius: 2px;
+    }
+    .four h4 {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px;
+        color: black;
+    }
+    .end-footer{
+        padding-top: 20px;
+        border-top: 2px  #FFD124 solid;
+        display: grid;
+        grid-template-columns:repeat(3,1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        margin-top: 5vw;
+        margin-left: 7.5%;
+        margin-right: 7.5%;
+    }
+    .box1{
+        background-color: #f0f0f0;
+        padding-bottom: 5px;
+    }
+    .box1 h3{
+        padding: 3px 5px;
+        text-align: center;
+    }
+    .box2{
+        background-color: #f0f0f0;
+        padding-bottom: 5px;
+    }
+    .box2 h3{
+        padding: 3px 5px;
+        text-align: center;
+    }
+    .box3{
+        background-color: #f0f0f0;
+        padding-bottom: 5px;
+    }
+    .box3 h3{
+        padding: 3px 5px;
+        text-align: center;
+    }
+    .box1 ul li {
+        padding: 5px 20px;
+        list-style: none;
+        cursor: pointer;
+        transition: all 1s ease 30ms;
+    }
+    .box2 ul li {
+        padding: 5px 20px;
+        list-style: none;
+        cursor: pointer;
+        transition: all 1s ease 30ms;
+    }
+    .box3 ul li {
+        padding: 5px 20px;
+        list-style: none;
+        cursor: pointer;
+        transition: all 1s ease 30ms;
+    }
+}

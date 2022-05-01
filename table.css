@@ -1,0 +1,185 @@
+@media only screen and (max-width: 1200px) and (min-width:770px )
+{
+    .nav_link{
+        display: none;
+    }
+    .cat{
+        margin-left: 60vw;
+    }
+    .main_head{
+        text-align: center;
+        line-height: 30px;
+    }
+    .child{
+        display: grid;
+        grid-template-columns:repeat(4,1fr);
+        text-align: center; 
+    }
+    .child :nth-child(1){
+        border: none;
+        border-radius: 10px;
+        padding: 22px;
+    }
+    .child :nth-child(2){
+        border: none;
+        border-radius: 10px;
+        padding: 22px;
+    }
+    .child :nth-child(3){
+        border: none;
+        border-radius: 10px;
+        padding: 22px;
+    }
+    .child :nth-child(4){
+        border: none;
+        border-radius: 10px;
+        padding: 22px;
+    }
+    .sit1{
+        margin-top: 20px;
+        margin-left: 10vw;
+        margin-right: 10vw;
+        line-height: 30px;
+        padding-left: 0px;
+        width: 80vw;
+        border-left: #FFD124 3px solid;
+        border-right: #FFD124 3px solid;
+    }
+    .sit1 h2 {
+        text-align: center;
+    }
+    .sit1 p {
+        margin-left: 14.5vw;
+        padding-top: 20px;
+        width: 50vw;
+        text-align: center;
+        border: none;
+    }
+    .flex-card{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin: 2vw 1vw;
+    }
+    .main1{
+        background-color:  rgb(218, 253, 253);
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        padding: 5px;
+        width: 30vw;
+        height: 300px;
+        text-align: center;
+    }
+    .main2{
+        background-color:  rgb(218, 253, 253);
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        padding: 5px;
+        width: 30vw;
+        height: 300px;
+        text-align: center;
+    }
+    .main3{
+        background-color:  rgb(218, 253, 253);
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        padding: 5px;
+        width: 30vw;
+        height: 300px;
+        text-align: center;
+    }
+    .main4{
+        background-color:  rgb(218, 253, 253);
+        margin-right: 5px;
+        margin-left: 5px;
+        margin-top: 5px;
+        padding: 5px;
+        width: 30vw;
+        height: 300px;
+        text-align: center;
+    }
+    .main1 p{
+        padding-top: 10px;
+        margin-bottom: 25px;
+    }
+    .main2 p{
+        padding-top: 10px;
+        margin-bottom: 25px;
+    }
+    .main3 p{
+        padding-top: 10px;
+        margin-bottom: 25px;
+    }
+    .main4 p{
+        padding-top: 10px;
+        margin-bottom: 25px;
+    }
+    .wrapper {
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        gap: 10px;
+        grid-auto-rows: minmax(100px, auto);
+        margin: 20px 4.5%;
+    }
+    .one {
+        grid-column: 2 / 4 ;
+        grid-row: 1 / 3;
+        background-color: #a668f1;
+        max-height: 346px;
+        padding-bottom: 40px;
+    }
+    .one p{
+        padding-left: 15px;
+        padding-right: 15px;
+        color: aliceblue;
+        line-height: 20px;
+    }
+    .one-img{
+        display: none;
+    }
+    .two {
+        grid-column: 1 / 4;
+        grid-row: 3 / 4;
+        background-color: rgb(248, 248, 248);
+        max-height: 346px;
+        padding-bottom: 10px;
+    }
+    .two .two-btn{
+        background-color: rgb(236, 236, 236);
+        margin-left: 15px;
+        margin-top: 10px;
+        padding: 5px 9px;
+        transition: all 2s ease 30ms;
+        border: black 1px solid;
+        border-radius: 2px;
+    }
+    .three {
+        grid-column: 1;
+        grid-row: 1 / 2;
+        background-color: rgb(56, 56, 56);
+        border: none;
+        border-radius: 2px;
+    }
+    .three h4 {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px;
+        color: aliceblue;
+    }
+    .four {
+        grid-column: 1;
+        grid-row: 2 / 3;
+        background-color: rgb(234, 234, 234);
+        border: none;
+        border-radius: 2px;
+    }
+    .four h4 {
+        display: flex;
+        justify-content: center;
+        padding: 15px 0px;
+        color: black;
+    }
+}
